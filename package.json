@@ -1,0 +1,24 @@
+{
+	"name": "express-study",
+	"version": "1.0.0",
+	"description": "Projeto para estudo sobre o express.js e criação de APIs com typescript",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn src/index.ts"
+	},
+	"author": "Pedro Oliveira",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"uuid": "^11.0.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/dotenv": "^6.1.1",
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.8.1",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.6.3"
+	}
+}
